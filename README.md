@@ -54,7 +54,7 @@ pip install speechrecognition gtts pygame gpiozero
 
 ## Run the Python Code
 ```console 
-python3 gva7_led.py
+python gva7_led.py
 ``` 
 
 
