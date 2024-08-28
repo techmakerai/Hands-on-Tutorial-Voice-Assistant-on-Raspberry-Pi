@@ -74,6 +74,7 @@ pip install gtts pygame gpiozero
 ```console 
 python gva7_led.py
 ``` 
+Press "Ctrl + C" on your keyboard to exit from a running Python program. 
 
 ## Power off Raspberry Pi 
 ```console 
