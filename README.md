@@ -8,7 +8,7 @@ https://youtu.be/uV6hJQcuW4w
 Here is a schematic of the Raspberry Pi and LEDs    
 <img src="https://github.com/techmakerai/Hands-on-Tutorial-Voice-Assistant-on-Raspberry-Pi/blob/main/schematic.png" width="720"/>
  
-## Hardware:
+## Hardware (\*):
 1. Raspberry Pi (https://amzn.to/4bmstJa)
 2. microSD card (https://amzn.to/4ay0HbY)
 3. Audio amplifier (https://amzn.to/3JjPWy9)
