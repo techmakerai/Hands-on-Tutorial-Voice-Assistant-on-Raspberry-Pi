@@ -62,11 +62,12 @@ source ~/.venv/bin/activate
 ```  
 
 ## Install Python Packages 
-You will need to install the following packages to run this code: 
+You will need to install the following packages: 
 
 ```console
+pip install speechrecognition sounddevice pyaudio
 pip install -q -U google-generativeai
-pip install speechrecognition gtts pygame gpiozero
+pip install gtts pygame gpiozero
 ```
 
 ## Run the Python Code
