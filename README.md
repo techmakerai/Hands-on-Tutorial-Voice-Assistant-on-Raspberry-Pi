@@ -25,21 +25,37 @@ sudo apt update
 sudo apt upgrade
 ```
 
-## Install Packages for Processing Audio Data
 
-```console  
-sudo apt install portaudio19-dev python3-pyaudio flac espeak 
-```   
+## Install a Firewall for the Raspberry Pi   
+
+```console
+sudo apt install ufw
+sudo ufw allow ssh
+sudo ufw enable
+```
 
 ## Install Python and Pip
 ```console 
 sudo apt install python3 python3-pip python3-venv
-```   
+```
 
-## Create Python Virtual Environment 
+## Create Python Virtual Environment in the home directory 
 ```console 
 python3 -m venv .venv
-```   
+```
+
+## Install Packages for Processing Audio Data
+```console  
+sudo apt install portaudio19-dev python3-pyaudio flac espeak 
+```
+## Create a Project Folder 
+```console  
+mkdir projects
+cd projects
+mkdir va
+cd va 
+```
+
 ## Activate Python Virtual Environment 
 ```console 
 source ~/.venv/bin/activate
