@@ -75,6 +75,9 @@ pip install gtts pygame gpiozero
 python gva7_led.py
 ``` 
 
-
+## Power off Raspberry Pi 
+```console 
+sudo poweroff
+``` 
 
 \* As a participant in the Amazon Associate Program, we earn from qualifying purchases.  
