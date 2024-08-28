@@ -17,25 +17,46 @@ Here is a schematic of the Raspberry Pi and LEDs
 4. Mini speaker (https://amzn.to/3TB9Pp3)    
 5. (optional) LEDs and resistors (https://amzn.to/3Jg4Yoz)     
 
-## Set System Environment Variables 
+## Update and Upgrade the Raspberry Pi OS 
 
-GOOGLE_API_KEY=(API key from Google)   
-PYGAME_HIDE_SUPPORT_PROMPT=hide
+```console
+sudo apt update
+sudo apt upgrade
+```
 
-## Install Python and Packages 
+## Install Packages for Processing Audio Data
+
+```console  
+sudo apt install portaudio19-dev python3-pyaudio flac espeak 
+```   
+
+## Install Python and Pip
+```console 
+sudo apt install python3 python3-pip python3-venv
+```   
+
+## Create Python Virtual Environment 
+```console 
+python3 -m venv .venv
+```   
+## Activate Python Virtual Environment 
+```console 
+source ~/.venv/bin/activate
+```  
+
+## Install Python Packages 
 You will need to install the following packages to run this code: 
 
 ```console
 pip install -q -U google-generativeai
 pip install speechrecognition gtts pygame gpiozero
 ```
-   
-If you have Python 3.12 or newer, also install the "setuptools" package,       
 
-```console
-pip install setuptools
-```    
+## Run the Python Code
+```console 
+python3 gva7_led.py
+``` 
 
-You may need to create a Python virtual environment first.        
+
 
 \* As a participant in the Amazon Associate Program, we earn from qualifying purchases.  
