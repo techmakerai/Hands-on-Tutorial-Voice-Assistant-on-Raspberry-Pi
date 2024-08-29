@@ -19,6 +19,7 @@ Here is a schematic of the Raspberry Pi and LEDs
 8. uni SD Card Reader https://amzn.to/3yYhwze
 9. Power Supply for Raspberry Pi 4: https://amzn.to/3RVKXIF or
     for Pi 5: https://amzn.to/3L9kC67
+10. Audio cable for speaker: https://amzn.to/3yXD8vy
 
 ## Update and Upgrade the Raspberry Pi OS 
 
