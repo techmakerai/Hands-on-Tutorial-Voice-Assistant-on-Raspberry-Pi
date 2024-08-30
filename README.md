@@ -70,7 +70,7 @@ You will need to install the following packages:
 ```console
 pip install speechrecognition sounddevice pyaudio
 pip install -q -U google-generativeai
-pip install gtts pygame gpiozero
+pip install gtts pygame gpiozero lgpio
 ```
 
 ## Run the Python Code
