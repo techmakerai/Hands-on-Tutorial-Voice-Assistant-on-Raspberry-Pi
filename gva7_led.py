@@ -36,7 +36,7 @@ mixer.init()
 my_api_key = " "
 
 if len(my_api_key) < 2:
-    print(f"Please add your Google Gemini API key in the program. \n " )
+    print(f"Please add your Google Gemini API key in the program (line 36). \n " )
     quit() 
 
 # set Google Gemini API key as a system environment variable or add it here
