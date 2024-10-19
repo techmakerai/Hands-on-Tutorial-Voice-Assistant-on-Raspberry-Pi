@@ -35,7 +35,7 @@ mixer.init()
 # add your Google Gemini API key here
 my_api_key = "  "
 
-if len(my_api_key) < 2:
+if len(my_api_key) < 5:
     print(f"Please add your Google Gemini API key in the program. \n " )
     quit() 
 
