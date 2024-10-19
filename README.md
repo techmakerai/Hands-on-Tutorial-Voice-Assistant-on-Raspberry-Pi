@@ -20,6 +20,7 @@ Here is a schematic of the Raspberry Pi and LEDs
 9. Power Supply for Raspberry Pi 4: https://amzn.to/3RVKXIF or
     for Pi 5: https://amzn.to/3L9kC67
 10. Audio cable for speaker: https://amzn.to/3yXD8vy
+11. Pi 4 case with cooling fan and heatsink: https://amzn.to/4hgnfBV
 
 ## Update and Upgrade the Raspberry Pi OS 
 
