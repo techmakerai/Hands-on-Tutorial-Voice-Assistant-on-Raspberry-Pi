@@ -4,6 +4,7 @@ A hands-on tutorial to build a voice assistant with Google Gemini on Raspberry P
 Following the YouTube video below to learn more about this project:    
 https://youtu.be/uV6hJQcuW4w
 
+Before using this Python script, please add your Google Gemini API key to it first. 
 
 Here is a schematic of the Raspberry Pi and LEDs    
 <img src="https://github.com/techmakerai/Hands-on-Tutorial-Voice-Assistant-on-Raspberry-Pi/blob/main/schematic1.png" width="720"/>
